@@ -24,7 +24,7 @@ NOTE: The consumer polls the queue continuously for messages using a long poll.
 
 | Service | Method | Endpoint | body | Description
 |:--------|:--------|:--------|:--------| :--------|
-|`Service send` | POST |http://localhost:3001/messages | {message: "Hello world"} | Create new resource
+|`Service producer` | POST |http://localhost:3001/messages | {message: "Hello world"} | Create new resource
 |`Service consumer` | GET | http://localhost:3002/messages |  | Get all resources
 
 ## Team
