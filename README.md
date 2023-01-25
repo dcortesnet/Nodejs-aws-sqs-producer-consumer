@@ -1,6 +1,6 @@
 # Nodejs AWS SQS producer/consumer ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Basic flow of publication and consumption of AWS SQS queues.
+Basic flow of producer and consumption of AWS SQS queues.
 The project consists of 2 services, one to producer and one to consume.
 NOTE: The consumer polls the queue continuously for messages using a long poll.
 
